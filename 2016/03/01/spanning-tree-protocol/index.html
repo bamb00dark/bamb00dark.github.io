@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Network," />
+  <meta name="keywords" content="STP," />
 
 
 
@@ -57,7 +57,11 @@
 
 
 
-<meta name="description" content="No.
+<meta name="description" content="此处收录一些与STP/RSTP相关的名词及其解释。
+
+
+
+No.
 Terminology
 Explanation
 
@@ -66,17 +70,16 @@ Explanation
 
 1
 Inferior BPDU
-An inferior BPDU is the one carries information about the root bridge that is worse than the one currently stored for the port.
-
-
-2
-Superior BPDU
-A supe">
+An inferior BPDU is the one carries information about the root bridge that is worse than the one currently stored for the p">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Spanning Tree Protocol">
+<meta property="og:title" content="STP/RSTP学习笔记">
 <meta property="og:url" content="http://yoursite.com/2016/03/01/spanning-tree-protocol/index.html">
 <meta property="og:site_name" content="一剪梅">
-<meta property="og:description" content="No.
+<meta property="og:description" content="此处收录一些与STP/RSTP相关的名词及其解释。
+
+
+
+No.
 Terminology
 Explanation
 
@@ -85,16 +88,15 @@ Explanation
 
 1
 Inferior BPDU
-An inferior BPDU is the one carries information about the root bridge that is worse than the one currently stored for the port.
-
-
-2
-Superior BPDU
-A supe">
-<meta property="og:updated_time" content="2016-03-07T15:04:15.000Z">
+An inferior BPDU is the one carries information about the root bridge that is worse than the one currently stored for the p">
+<meta property="og:updated_time" content="2016-03-08T15:17:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Spanning Tree Protocol">
-<meta name="twitter:description" content="No.
+<meta name="twitter:title" content="STP/RSTP学习笔记">
+<meta name="twitter:description" content="此处收录一些与STP/RSTP相关的名词及其解释。
+
+
+
+No.
 Terminology
 Explanation
 
@@ -103,12 +105,7 @@ Explanation
 
 1
 Inferior BPDU
-An inferior BPDU is the one carries information about the root bridge that is worse than the one currently stored for the port.
-
-
-2
-Superior BPDU
-A supe">
+An inferior BPDU is the one carries information about the root bridge that is worse than the one currently stored for the p">
 
 
 
@@ -126,7 +123,7 @@ A supe">
   };
 </script>
 
-  <title> Spanning Tree Protocol | 一剪梅 </title>
+  <title> STP/RSTP学习笔记 | 一剪梅 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -266,7 +263,7 @@ A supe">
             
             
               
-                Spanning Tree Protocol
+                STP/RSTP学习笔记
               
             
           </h1>
@@ -304,7 +301,8 @@ A supe">
       
 
       
-        <table>
+        <p>此处收录一些与STP/RSTP相关的名词及其解释。</p>
+<table>
 <thead>
 <tr>
 <th>No.</th>
@@ -323,6 +321,26 @@ A supe">
 <td>Superior BPDU</td>
 <td>A superior BPDU is the one carries information about the root bridge that is better than the one currently stored for the port.</td>
 </tr>
+<tr>
+<td>3</td>
+<td>Root Port</td>
+<td>It receives the best BPDU on a bridge.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Designated Port</td>
+<td>It sends the best BPDU on the segment to which it is connected.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Alternate Port</td>
+<td>It receives more useful BPDUs from another bridge and is a port block.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Backup Port</td>
+<td>It receives more useful BPDUs from the same bridge it is on and is a port blocked.</td>
+</tr>
 </tbody>
 </table>
 
@@ -333,7 +351,7 @@ A supe">
       
         <div class="post-tags">
           
-            <a href="/tags/Network/" rel="tag">#Network</a>
+            <a href="/tags/STP/" rel="tag">#STP</a>
           
         </div>
       
